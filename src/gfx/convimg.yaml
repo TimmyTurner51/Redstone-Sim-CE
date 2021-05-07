@@ -1,0 +1,17 @@
+
+converts:
+  - name: CLASSIC
+    palette: xlibc
+    tilesets:
+      tile-width: 16
+      tile-height: 16
+    transparent-color-index: 0
+    images:
+      - Textures/Classic/sprites.png
+
+outputs:
+
+  - type: appvar
+    name: CLASSIC
+    converts:
+      - CLASSIC
